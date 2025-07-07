@@ -19,9 +19,9 @@ if not lista_de_notas:
 else:
     print(
         f"""
-        Foram inseridas {len(lista_de_notas)} notas.
-        A média das notas é: {sum(lista_de_notas) / len(lista_de_notas):.2f} se você quiser conferir.
-        Aqui estão as notas inseridas: {lista_de_notas}
-        Obrigado por usar a calculadora de média escolar!
+    Foram inseridas {len(lista_de_notas)} notas.
+    A média das notas é: {sum(lista_de_notas) / len(lista_de_notas):.2f} se você quiser conferir.
+    Aqui estão as notas inseridas: {lista_de_notas}
+    Obrigado por usar a calculadora de média escolar!
     """
     )

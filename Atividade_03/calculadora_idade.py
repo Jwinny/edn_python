@@ -1,7 +1,7 @@
 import os
 import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))) 
-from Atividade_01.funcoes import solicitar_numero_inteiro, solicitar_numero_float
+from Atividade_01.funcoes import solicitar_numero_inteiro
 
 def define_faixa_etaria() -> None: 
     while True:

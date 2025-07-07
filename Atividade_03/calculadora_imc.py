@@ -1,7 +1,7 @@
 import os
 import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from Atividade_01.funcoes import solicitar_numero_float, solicitar_numero_inteiro
+from Atividade_01.funcoes import solicitar_numero_float
 
 def calcular_imc() -> None:
     peso = solicitar_numero_float("Digite seu peso em kg: ")
